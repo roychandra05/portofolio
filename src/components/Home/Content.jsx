@@ -11,10 +11,11 @@ const Content = () => {
             <div className="w-full h-full rounded-full relative overflow-hidden">
               <Image
                 src={profile}
+                placeholder="blur"
                 alt="profile picture"
                 priority
                 fill
-                quality={100}
+                quality={90}
                 loading="eager"
                 className="object-cover object-center opacity-95"
               />
