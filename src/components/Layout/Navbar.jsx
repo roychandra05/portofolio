@@ -22,9 +22,10 @@ const Navbar = () => {
                 path === "/"
                   ? "line-through decoration-2 pointer-events-none"
                   : ""
-              }`}
+              } group/profile flex flex-col items-center justify-center`}
             >
               Profile
+              <div className="w-0 h-[1px] bg-white group-hover/profile:w-full transition-all duration-300" />
             </Link>
             <div className="h-1/3 max-[640px]:h-1/2 border" />
             <Link
@@ -33,9 +34,10 @@ const Navbar = () => {
                 path === "/project"
                   ? "line-through decoration-2 pointer-events-none"
                   : ""
-              }`}
+              } group/projects flex flex-col items-center justify-center`}
             >
               Projects
+              <div className="w-0 h-[1px] bg-white group-hover/projects:w-full transition-all duration-300" />
             </Link>
           </div>
         </div>
