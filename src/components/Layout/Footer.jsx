@@ -15,7 +15,7 @@ const Footer = () => {
               <GitHub color="white" />
             </Link>
             <div className="h-1/3 max-[640px]:h-full border" />
-            <Link href={"mailto:royct0001@gmail.com"} className="">
+            <Link href={"mailto:royct001@gmail.com"} className="">
               <Mail />
             </Link>
           </div>
