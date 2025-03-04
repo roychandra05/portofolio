@@ -28,7 +28,7 @@ const Content = () => {
             <div className="w-1/2 max-[640px]:w-full md:w-full md:text-[.9em] p-1">
               Selamat datang. Saya lulusan Sarjana Komputer dengan keterampilan
               dalam pengembangan website, Microsoft Office, dan komunikasi
-              efektif. Saya memiliki pengalaman sebagai administrator dan sales.
+              efektif. Saya memiliki pengalaman sebagai administrator dan Marketing.
             </div>
           </div>
         </div>
